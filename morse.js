@@ -50,10 +50,10 @@ MORSE_ARRAY = {
     '_': '..--.-'
 }
 
-var Gpio = require('onoff').Gpio; //include onoff to interact with the GPIO
+var Gpio = require('onoff').Gpio; // include onoff to interact with the GPIO
 var sleep = require('sleep');   // include sleep to sleep for x seconds or ms
-var LED = new Gpio(4, 'out'); //use GPIO pin 4, and specify that it is output
-const readline = require('readline'); //include readline to prompt for input
+var LED = new Gpio(4, 'out'); // use GPIO pin 4, and specify that it is output
+const readline = require('readline'); // include readline to prompt for input
 
 
 const rl = readline.createInterface({
